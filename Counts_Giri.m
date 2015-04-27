@@ -11,8 +11,9 @@ function counts
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Count the average number of fluorescence from all the images in a
 % given folder. The input files are .traces files obtained after 
-% identification of single-molecules using IDL scripts. IDL scripts
-% are available at bio.physics.illinois.edu
+% identification of single-molecules using IDL scripts. traces files 
+% include the intensity values for every frame for every identified 
+% single molecule. IDL scripts are available at bio.physics.illinois.edu
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear all

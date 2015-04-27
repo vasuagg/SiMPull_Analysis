@@ -78,5 +78,6 @@ end
 disp('Total number of mCherry points =  '); disp(len1);
 disp('Total number of YFP points =  '); disp(len2);
 disp('Number of overlapping points =  '); disp(overlap2);
-disp('Percentage overlap over total YFP = '); disp(overlap2*100/len2);  
+disp('Percentage overlap over total mCherry = '); disp(overlap2*100/len1);  
+disp('Percentage overlap over total YFP = '); disp(overlap2*100/len2);
 end
